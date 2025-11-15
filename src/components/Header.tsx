@@ -10,9 +10,9 @@ const Header = () => {
     "Подобрать размер",
   ];
   return (
-    <div className="h-25 my-3.75 ">
-      <div className="container mx-auto bg-white/50 border-b border-border">
-        <div className="flex items-center py-3.75">
+    <div className="mt-3.75 border-b border-border bg-white/50">
+      <div className="container mx-auto  ">
+        <div className="flex items-center justify-between py-3.75">
           <div className="flex items-center mr-18.75">
             <img
               width={50}
@@ -32,7 +32,7 @@ const Header = () => {
             <div className="flex items-center">
               <img src="./src/assets/images/icons/cart.svg" alt="cart" />
             </div>
-            <div className="px-5.75 py-4.25 flex items-center gap-2.5 rounded-[15px] bg-btn-tg">
+            <div className="px-5.75 py-4.25 flex items-center gap-2.5 rounded-[15px] bg-btn-tg font-inter">
               <div>
                 <img
                   className="w-7.5 h-5"
